@@ -1,25 +1,18 @@
 *{
     font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
 }
 
 #header-nav{
-    background-color: #f6b319;
+    background-color: grey;
     border-radius: 0;
-    border: 0;
-}
-
-h1{
-    margin: 30px 0px 30px 0px;
+    border: 1px solid black;
 }
 
 .row{
-    margin: 5px;
+    
 }
 
-.row > div{
-    border: 1px solid black;
+.row > div > div{
     background-color: gray;
-    margin: 0px auto 15px auto;
-    padding: 20px 20px 0px 20px;
-    position: relative;
 }
